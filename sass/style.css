@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.particles-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  background: #0f0c29;
+  background: -webkit-gradient(linear, left top, right top, from(#24243e), color-stop(#302b63), to(#0f0c29));
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.container-fluid .navigation {
+  z-index: 2;
+}
+
+.container-fluid .navigation #title {
+  letter-spacing: 3px;
+}
+
+.container-fluid .row.main-content {
+  height: 100%;
+}
+
+.option-wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.option-wrapper .box {
+  height: 70%;
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 2;
+  margin: 0 20px;
+}
+
+.option-wrapper #option-input {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-top: 40px;
+}
+
+.option-wrapper #option-input p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.5vw;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.option-wrapper #option-input #input-wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  border-bottom: solid #fff .5px;
+}
+
+.option-wrapper #option-input #input-wrapper > * {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.option-wrapper #option-input #input-wrapper input {
+  color: #111 !important;
+}
+
+.option-wrapper #option-input #input-wrapper input::-webkit-input-placeholder {
+  color: #333;
+  font-weight: 300;
+}
+
+.option-wrapper #option-input #input-wrapper input:-ms-input-placeholder {
+  color: #333;
+  font-weight: 300;
+}
+
+.option-wrapper #option-input #input-wrapper input::-ms-input-placeholder {
+  color: #333;
+  font-weight: 300;
+}
+
+.option-wrapper #option-input #input-wrapper input::placeholder {
+  color: #333;
+  font-weight: 300;
+}
+
+.option-wrapper #option-input #text-wrapper {
+  text-align: center;
+  padding: 30px;
+}
+
+.option-wrapper #option-input #text-wrapper:first-child {
+  font-weight: bold;
+}
+
+.option-wrapper #info {
+  color: #fff;
+}
+
+.option-wrapper #info > * {
+  width: 80%;
+}
+
+.option-wrapper #info h4 {
+  padding-bottom: 20px;
+  border-bottom: solid #fff .5px;
+}
+/*# sourceMappingURL=style.css.map */

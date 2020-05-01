@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,400&display=swap');
+* { 
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.particles-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.container-fluid {
+    height: 100%;
+    width: 100%;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+
+    .navigation {
+        z-index: 2;
+
+        #title {
+            letter-spacing: 3px;
+        }
+    }
+    
+    .row.main-content {
+        height: 100%;
+    }
+}
+
+.option-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .box {
+        height: 70%;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        z-index: 2;
+        margin: 0 20px;
+    }
+
+    #option-input {
+        justify-content: start;
+        padding-top: 40px;
+        
+        p {
+            color: #fff;
+            font-weight: 100;
+            font-size: 1.5vw;
+            letter-spacing: 1.5px;
+            margin: 0;
+        }
+        #input-wrapper {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            border-bottom: solid #fff .5px;
+            > * {
+                margin: 10px 0;
+                width: 100%;
+            }
+            input {
+                color: #111!important;
+                &::placeholder {
+                    color: #333;
+                    font-weight: 300;
+                }
+            }
+           
+        }
+        #text-wrapper {
+            text-align: center;
+            padding: 30px;
+            &:first-child {
+                font-weight: bold;
+            }
+        }
+        
+    }
+
+    #info {
+        > * {
+            width: 80%;
+        }
+        color: #fff;
+        h4 {
+            padding-bottom: 20px;
+            border-bottom: solid #fff .5px;
+        }
+        
+    }
+}
+
